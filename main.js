@@ -33,11 +33,16 @@ function gotPoses(results) {
 function draw() {
     background('#A020F0')
 
+textSize(difference);
+
+
+
     document.getElementById("square_side").innerHTML = "Width And Height of a square will be = " + difference +"px"
     fill('#F90093')
-    stroke('#F90093');
-    square(noseX, noseY, difference);
+    text('Booom World',50, 420);
+    
 }
+
 
 
 function modelLoaded() {
